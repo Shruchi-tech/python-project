@@ -70,7 +70,7 @@ function animatePress(currentColor) {
     },100);
 }
 function playsound(color) {
-    var audio= new  Audio("./sounds/"+color+".mp3");
+    var audio= new  Audio("./"+color+".mp3");
     audio.play();
 }
 function startOver() {
@@ -88,3 +88,4 @@ function startOver() {
    
 }
     
+
